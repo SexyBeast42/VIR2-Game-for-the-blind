@@ -1,0 +1,19 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 394392587760.4,"dur": 1490121.3, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 394392611595,"dur": 77826.2, "ph":"X", "name": "Preprocess Player"},
+{}
+
+],
+"meta_datetime": "12/19/2022 19:10:12",
+"meta_command_line": "D:\\Unity\\2022.1.23f1\\Editor\\Unity.exe -projectpath \"E:\\Unity projects\\Uni\\VIR2-Game-for-the-blind\\Game for the blind\" -useHub -hubIPC -cloudEnvironment production -licensingIpc \"LicenseClient-Dave K\" -hubSessionId 76938f60-7fba-11ed-94fe-210bb6c092de",
+"meta_command_line_args": "D:\\Unity\\2022.1.23f1\\Editor\\Unity.exe -projectpath E:\\Unity projects\\Uni\\VIR2-Game-for-the-blind\\Game for the blind -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Dave K -hubSessionId 76938f60-7fba-11ed-94fe-210bb6c092de",
+"meta_user_name": "Dave K",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "4"
+}
