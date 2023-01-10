@@ -1,0 +1,38 @@
+[2023-01-06 16:38:49.926] [pxr_streamer] [info] ***********  Log Begin **********
+[2023-01-06 16:38:49.926] [pxr_streamer] [info] process id= 16976
+[2023-01-06 16:38:49.926] [pxr_streamer] [debug] single_application.cpp:94 IsRunning: app is running, num= 1
+[2023-01-06 16:38:49.932] [pxr_streamer] [info] main.cpp:55 main: ======Runtime process start======
+[2023-01-06 16:38:49.932] [pxr_streamer] [info] main.cpp:57 main: Application Name: E:\Unity projects\Uni\VIR2-Game-for-the-blind\PICO Things\PICO PreviewTool_PC_Release\Release\PreviewTool.exe Version:0.2.0.0
+[2023-01-06 16:38:49.932] [pxr_streamer] [info] main.cpp:116 PrintHardwareInfo: Operation System: Windows 10 Version 2009
+[2023-01-06 16:38:49.937] [pxr_streamer] [info] main.cpp:118 PrintHardwareInfo: Machine Host Name: SexyBeast
+[2023-01-06 16:38:49.937] [pxr_streamer] [info] main.cpp:120 PrintHardwareInfo: Cpu Model: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz
+[2023-01-06 16:38:49.937] [pxr_streamer] [info] main.cpp:122 PrintHardwareInfo: Cpu Architecture: x86_64
+[2023-01-06 16:38:50.448] [pxr_streamer] [info] main.cpp:124 PrintHardwareInfo: Gpu Vendor: NVIDIA Corporation
+[2023-01-06 16:38:50.489] [pxr_streamer] [info] main.cpp:126 PrintHardwareInfo: Gpu Card: NVIDIA GeForce GTX 1060 3GB/PCIe/SSE2
+[2023-01-06 16:38:50.527] [pxr_streamer] [info] main.cpp:128 PrintHardwareInfo: Gpu Driver: 4.6.0 NVIDIA 527.56
+[2023-01-06 16:38:50.527] [pxr_streamer] [info] host_impl.cpp:393 HostImpl: init_reader = E:\Unity projects\Uni\VIR2-Game-for-the-blind\PICO Things\PICO PreviewTool_PC_Release\Release/settings/RVRPlugin.ini, this = 0x24409e20
+[2023-01-06 16:38:50.554] [pxr_streamer] [warning] gpu_direct_mode.cpp:22 GpuDirectMode: initialize AMD display failed, this = 0x215f5bf0
+[2023-01-06 16:38:51.460] [pxr_streamer] [info] runtime_thread.cpp:80 run: thread started, name=LogicThread, this = 0xcc74f4a0
+[2023-01-06 16:38:51.461] [pxr_streamer] [debug] runtime_logic_thread.cpp:118 Execute: runtime logic thread start, this = 0xcc74f4a0
+[2023-01-06 16:38:51.461] [pxr_streamer] [info] rpc_host.cpp:14 Startup: host = 0.0.0.0, port = 50051, this = 0x24494da0
+[2023-01-06 16:38:51.462] [pxr_streamer] [info] udp_host.cpp:12 Startup: host= 0.0.0.0, port= 50052, this = 0x24494e20
+[2023-01-06 16:38:51.462] [pxr_streamer] [info] host_impl.cpp:49 Startup: host = 0.0.0.0, rpc_port = 50051, udp_port = 50052, this = 0x24409e20
+[2023-01-06 16:38:51.463] [pxr_streamer] [info] rpc_host.cpp:34 operator (): teminal connect, host = 127.0.0.1, port = 3766, this = 0x24494da0
+[2023-01-06 16:38:51.464] [pxr_streamer] [info] host_impl.cpp:121 OnTerminalConnect: terminal 24919 is connected, type = Runtime, name = Pico Runtime, this = 0x24409e20
+[2023-01-06 16:38:51.464] [pxr_streamer] [info] runtime_logic_thread.cpp:253 RuntimeTerminalConnect: runtime terminal connect success, this = 0xcc74f4a0
+[2023-01-06 16:38:52.142] [pxr_streamer] [info] rpc_host.cpp:34 operator (): teminal connect, host = 127.0.0.1, port = 3769, this = 0x24494da0
+[2023-01-06 16:38:52.443] [pxr_streamer] [info] rpc_host.cpp:34 operator (): teminal connect, host = 127.0.0.1, port = 3770, this = 0x24494da0
+[2023-01-06 16:40:38.101] [pxr_streamer] [info] rpc_host.cpp:34 operator (): teminal connect, host = 192.168.42.129, port = 37219, this = 0x24494da0
+[2023-01-06 16:41:01.330] [pxr_streamer] [info] rpc_host.cpp:34 operator (): teminal connect, host = 127.0.0.1, port = 3866, this = 0x24494da0
+[2023-01-06 16:41:01.332] [pxr_streamer] [info] host_impl.cpp:121 OnTerminalConnect: terminal 10220 is connected, type = Driver, name = , this = 0x24409e20
+[2023-01-06 16:41:37.485] [pxr_streamer] [info] runtime_logic_thread.cpp:262 RuntimeTerminalDisconnect: runtime terminal disconnect, this = 0xcc74f4a0
+[2023-01-06 16:41:37.485] [pxr_streamer] [info] host_impl.cpp:131 OnTerminalDisconnect: terminal 24919 is disconnected, this = 0x24409e20
+[2023-01-06 16:41:37.485] [pxr_streamer] [info] rpc_host.cpp:42 operator (): teminal disconnect, host = 127.0.0.1, port = 3766, this = 0x24494da0
+[2023-01-06 16:41:37.506] [pxr_streamer] [info] rpc_host.cpp:42 operator (): teminal disconnect, host = 127.0.0.1, port = 3866, this = 0x24494da0
+[2023-01-06 16:41:37.506] [pxr_streamer] [info] rpc_host.cpp:42 operator (): teminal disconnect, host = 127.0.0.1, port = 3770, this = 0x24494da0
+[2023-01-06 16:41:37.506] [pxr_streamer] [info] rpc_host.cpp:42 operator (): teminal disconnect, host = 192.168.42.129, port = 37219, this = 0x24494da0
+[2023-01-06 16:41:37.506] [pxr_streamer] [info] rpc_host.cpp:42 operator (): teminal disconnect, host = 127.0.0.1, port = 3769, this = 0x24494da0
+[2023-01-06 16:41:37.536] [pxr_streamer] [info] host_impl.cpp:69 Shutdown: host disconnect, this = 0x24409e20
+[2023-01-06 16:41:37.536] [pxr_streamer] [debug] runtime_logic_thread.cpp:158 Execute: runtime logic thread end, this = 0xcc74f4a0
+[2023-01-06 16:41:37.536] [pxr_streamer] [info] runtime_thread.cpp:85 run: thread finished, name=LogicThread, this = 0xcc74f4a0
+[2023-01-06 16:41:37.537] [pxr_streamer] [info] main.cpp:107 main: ======Runtime process end======

@@ -1,0 +1,36 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "PxrPlatform"
+  }
+  digests {
+    sha256: "\330\217\272\n\036\343\270\245\271\340_+\247\214\203\227\"(\203\201+\367\316\274\205\337\020\200\247\3540\215"
+  }
+}
+library {
+  maven_library {
+    artifactId: "pxr_api-release"
+  }
+  digests {
+    sha256: "\262\004\345%\250\307LDc\0343S\036\337\241\305\022T\037\3219V\240G\247\020-\375!<<\303"
+  }
+}
+library {
+  digests {
+    sha256: "sHB~\207\266\252\2540\375\022)*\022\306J\336O\3653\347~\223@x\276j\030\344\021n7"
+  }
+}
+library_dependencies {
+}
+library_dependencies {
+  library_index: 1
+}
+library_dependencies {
+  library_index: 2
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 2
+}

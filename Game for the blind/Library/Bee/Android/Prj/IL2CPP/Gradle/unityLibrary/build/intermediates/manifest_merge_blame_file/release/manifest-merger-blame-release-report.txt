@@ -1,0 +1,178 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00020000" />
+12-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-52
+12-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-65
+14-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:20-62
+15
+16    <uses-feature
+16-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-88
+17        android:name="android.hardware.touchscreen"
+17-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-60
+18        android:required="false" />
+18-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:61-85
+19    <uses-feature
+19-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-71
+21        android:required="false" />
+21-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:72-96
+22    <uses-feature
+22-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-80
+24        android:required="false" />
+24-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:81-105
+25
+26    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+26-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-71
+26-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:20-68
+27
+28    <application
+28-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-26:17
+29        android:extractNativeLibs="true"
+29-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+30        android:requestLegacyExternalStorage="true" >
+30-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-92
+31        <activity
+31-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+32            android:name="com.unity3d.player.UnityPlayerActivity"
+32-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+33            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+33-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
+34            android:hardwareAccelerated="false"
+34-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
+35            android:launchMode="singleTask"
+35-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
+36            android:resizeableActivity="false"
+36-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+37            android:screenOrientation="landscape"
+37-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
+38            android:theme="@style/UnityThemeSelector" >
+38-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+39            <intent-filter>
+39-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+40-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+42-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+43            </intent-filter>
+44
+45            <meta-data
+45-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+46                android:name="unityplayer.UnityActivity"
+46-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+47                android:value="true" />
+47-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+48            <meta-data
+48-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+49                android:name="android.notch_support"
+49-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+50                android:value="true" />
+50-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+51        </activity>
+52
+53        <meta-data
+53-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+54            android:name="unity.splash-mode"
+54-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+55            android:value="0" />
+55-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+56        <meta-data
+56-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+57            android:name="unity.splash-enable"
+57-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+58            android:value="True" />
+58-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+59        <meta-data
+59-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+60            android:name="unity.launch-fullscreen"
+60-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+61            android:value="True" />
+61-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+62        <meta-data
+62-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+63            android:name="unity.allow-resizable-window"
+63-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+64            android:value="False" />
+64-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+65        <meta-data
+65-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+66            android:name="notch.config"
+66-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+67            android:value="portrait|landscape" />
+67-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+68        <meta-data
+68-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-65
+69            android:name="pvr.app.type"
+69-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-43
+70            android:value="vr" />
+70-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:44-62
+71        <meta-data
+71-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-85
+72            android:name="pvr.sdk.version"
+72-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-46
+73            android:value="XR Platform_2.1.2.4" />
+73-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:47-82
+74        <meta-data
+74-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-62
+75            android:name="enable_cpt"
+75-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-41
+76            android:value="0" />
+76-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:42-59
+77        <meta-data
+77-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-75
+78            android:name="enable_entitlementcheck"
+78-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-54
+79            android:value="0" />
+79-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:55-72
+80        <meta-data
+80-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-64
+81            android:name="handtracking"
+81-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-43
+82            android:value="0" />
+82-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:44-61
+83        <meta-data
+83-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-66
+84            android:name="rendering_mode"
+84-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-45
+85            android:value="0" />
+85-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:46-63
+86        <meta-data
+86-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-64
+87            android:name="display_rate"
+87-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-43
+88            android:value="0" />
+88-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:44-61
+89        <meta-data
+89-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-63
+90            android:name="color_Space"
+90-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-42
+91            android:value="0" />
+91-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:43-60
+92        <meta-data
+92-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:5-62
+93            android:name="MRCsupport"
+93-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:16-41
+94            android:value="1" />
+94-->E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:42-59
+95    </application>
+96
+97</manifest>

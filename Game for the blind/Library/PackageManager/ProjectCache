@@ -5,29 +5,45 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638063832551183161
-    m_Hash: 2416260787
+      ticks: 638088924784805980
+    m_Hash: 1862080132
   m_LockFileStatus:
     m_FilePath: E:/Unity projects/Uni/VIR2-Game-for-the-blind/Game for the blind/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638063832551183161
-    m_Hash: 3912749154
+      ticks: 638088924785108651
+    m_Hash: 3292182256
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\PICO Things\PICO Unity
+      Integration SDK v212/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638030515400000000
+    m_Hash: 2949922666
+  - m_FilePath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\PICO Things\PICO Unity
+      Integration SDK v212
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: E:/Unity projects/Uni/VIR2-Game-for-the-blind/Game for the blind/Packages
 m_EditorVersion: 2022.1.23f1 (9636b062134a)
 m_ResolvedPackages:
-- packageId: com.unity.collab-proxy@1.17.6
+- packageId: com.unity.collab-proxy@1.17.7
   testable: 0
   isDirectDependency: 1
-  version: 1.17.6
+  version: 1.17.7
   source: 1
-  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.collab-proxy@1.17.6
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.collab-proxy@1.17.7
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -157,13 +173,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638009928240000000
+  datePublishedTicks: 638036787040000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 3744f24b80468ef1336fbc234c93625c4a6287b0
+    revision: 1641a631fd39029595decb52bdfb641b32ed194c
     path: 
   unityLifecycle:
     version: 1.17.6
@@ -222,7 +238,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.16
+    version: 3.0.18
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -290,7 +306,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.oculus
     version: 3.2.1
   - name: com.unity.xr.management
-    version: 4.2.0
+    version: 4.2.1
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -339,12 +355,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.16
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.16
+  version: 3.0.18
   source: 1
-  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.ide.rider@3.0.16
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -394,10 +410,12 @@ m_ResolvedPackages:
     - 3.0.15
     - 3.0.16
     - 3.0.17
+    - 3.0.18
     compatible:
     - 3.0.16
     - 3.0.17
-    verified: 3.0.17
+    - 3.0.18
+    verified: 3.0.18
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -415,13 +433,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638011833630000000
-  documentationUrl: 
+  datePublishedTicks: 638088746970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 9b718d58b8f7a34e564f2c79af6d2ca788e929d4
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
     version: 3.0.16
@@ -641,11 +659,13 @@ m_ResolvedPackages:
     - 2.2.3
     - 3.1.1
     - 3.1.2
+    - 3.1.3
     compatible:
     - 2.2.2
     - 2.2.3
     - 3.1.1
     - 3.1.2
+    - 3.1.3
     verified: 2.2.3
   dependencies:
   - name: com.unity.editorcoroutines
@@ -736,6 +756,7 @@ m_ResolvedPackages:
     - 1.1.33
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -744,6 +765,7 @@ m_ResolvedPackages:
     - 1.1.33
     - 1.3.0
     - 1.3.1
+    - 1.3.2
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -801,7 +823,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -909,12 +931,14 @@ m_ResolvedPackages:
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
     - 3.2.0-pre.2
     - 3.2.0-pre.3
+    - 3.2.0-pre.4
     - 4.0.0-pre.1
     verified: 3.0.6
   dependencies:
@@ -941,7 +965,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -1250,12 +1274,140 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.7.8
     nextVersion: 
-- packageId: com.unity.xr.management@4.2.0
+- packageId: com.unity.xr.interaction.toolkit@2.0.4
   testable: 0
   isDirectDependency: 1
-  version: 4.2.0
+  version: 2.0.4
   source: 1
-  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.management@4.2.0
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.interaction.toolkit@2.0.4
+  assetPath: Packages/com.unity.xr.interaction.toolkit
+  name: com.unity.xr.interaction.toolkit
+  displayName: XR Interaction Toolkit
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: asset
+  description: A high-level, component-based, interaction system for creating VR
+    and AR experiences. It provides a framework that makes 3D and UI interactions
+    available from Unity input events. The core of this system is a set of base Interactor
+    and Interactable components, and an Interaction Manager that ties these two types
+    of components together. It also contains components that you can use for locomotion
+    and drawing visuals.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.0.6-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.10.0-preview.7
+    - 1.0.0-pre.1
+    - 1.0.0-pre.2
+    - 1.0.0-pre.3
+    - 1.0.0-pre.4
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0-pre.8
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0-pre.7
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0-pre.1
+    - 2.1.1
+    - 2.2.0
+    - 2.3.0-pre.1
+    compatible:
+    - 2.0.4
+    - 2.1.0-pre.1
+    - 2.1.1
+    - 2.2.0
+    - 2.3.0-pre.1
+    verified: 2.0.4
+  dependencies:
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.8
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  keywords:
+  - XR
+  - VR
+  - toolkit
+  - interaction
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638030651730000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.xr.interaction.toolkit.git
+    revision: d06fdbfd8b27d0ed11b14914fe49ce91d89dc5ec
+    path: 
+  unityLifecycle:
+    version: 2.0.4
+    nextVersion: 
+- packageId: com.unity.xr.management@4.2.1
+  testable: 0
+  isDirectDependency: 1
+  version: 4.2.1
+  source: 1
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.management@4.2.1
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -1371,16 +1523,315 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637704350680000000
+  datePublishedTicks: 637769778170000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/xr.sdk.management.git
-    revision: c8fb6583d6d04516909a8d2ab999a1dbe90ade50
+    revision: 9c99228887ff65cc0729434b3b9371d22b707cb9
     path: 
   unityLifecycle:
     version: 4.2.0
+    nextVersion: 
+- packageId: com.unity.xr.mock-hmd@1.3.0-preview.1
+  testable: 0
+  isDirectDependency: 1
+  version: 1.3.0-preview.1
+  source: 1
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.mock-hmd@1.3.0-preview.1
+  assetPath: Packages/com.unity.xr.mock-hmd
+  name: com.unity.xr.mock-hmd
+  displayName: MockHMD XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides rendering and input support for XR MockHMD.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.1-preview.3
+    - 1.0.1-preview.4
+    - 1.0.1-preview.5
+    - 1.0.1-preview.6
+    - 1.0.1-preview.7
+    - 1.1.0-preview.1
+    - 1.1.1-preview.1
+    - 1.1.2-preview.1
+    - 1.1.3-preview.1
+    - 1.2.0-preview.1
+    - 1.3.0-preview.1
+    compatible:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.1-preview.3
+    - 1.0.1-preview.4
+    - 1.0.1-preview.5
+    - 1.0.1-preview.6
+    - 1.0.1-preview.7
+    - 1.1.0-preview.1
+    - 1.1.1-preview.1
+    - 1.1.2-preview.1
+    - 1.1.3-preview.1
+    - 1.2.0-preview.1
+    - 1.3.0-preview.1
+    verified: 
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.1
+  keywords:
+  - mock-hmd
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637488609920000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.mock-hmd.git
+    revision: dafe736729d60f1a4696913c59158fe8fa6f76ae
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.xr.openxr@1.4.2
+  testable: 0
+  isDirectDependency: 1
+  version: 1.4.2
+  source: 1
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.openxr@1.4.2
+  assetPath: Packages/com.unity.xr.openxr
+  name: com.unity.xr.openxr
+  displayName: OpenXR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: OpenXR is an open, royalty-free standard developed by Khronos that
+    aims to simplify AR/VR development by allowing developers to target a wide range
+    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.1-preview.1
+    - 0.1.2-preview.2
+    - 1.0.0-pre.1
+    - 1.0.2
+    - 1.0.3
+    - 1.1.1
+    - 1.2.0
+    - 1.2.2
+    - 1.2.3
+    - 1.2.8
+    - 1.3.0
+    - 1.3.1
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.5.0-exp.1
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.6.0
+    compatible:
+    - 1.4.2
+    - 1.5.0-exp.1
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.6.0
+    verified: 1.4.2
+  dependencies:
+  - name: com.unity.xr.management
+    version: 4.0.1
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.2
+  - name: com.unity.inputsystem
+    version: 1.3.0
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.1
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - openxr
+  - xr
+  - reality
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637884092510000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
+    revision: 9f7014aa33bf536ec867484ee501dec6c2a4bc16
+    path: 
+  unityLifecycle:
+    version: 1.4.2
+    nextVersion: 
+- packageId: com.unity.xr.picoxr@file:E:\Unity projects\Uni\VIR2-Game-for-the-blind\PICO
+    Things\PICO Unity Integration SDK v212
+  testable: 0
+  isDirectDependency: 1
+  version: 2.1.2
+  source: 4
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\PICO Things\PICO Unity
+    Integration SDK v212
+  assetPath: Packages/com.unity.xr.picoxr
+  name: com.unity.xr.picoxr
+  displayName: PICO Integration
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Provides display and input support for PICO devices.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies:
+  - name: com.unity.xr.management
+    version: 3.2.16
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.subsystemregistration
+    version: 1.0.6
+  - name: com.unity.xr.interaction.toolkit
+    version: 0.9.4-preview
+  resolvedDependencies:
+  - name: com.unity.xr.management
+    version: 4.2.1
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.subsystemregistration
+    version: 1.1.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.xr.interaction.toolkit
+    version: 2.0.4
+  - name: com.unity.inputsystem
+    version: 1.4.4
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  keywords:
+  - picoxr
+  - xr
+  - vr
+  - virtual
+  - xreditorsubsystem
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
@@ -3155,6 +3606,71 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.unity.subsystemregistration@1.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.1.1
+  source: 1
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.subsystemregistration@1.1.1
+  assetPath: Packages/com.unity.subsystemregistration
+  name: com.unity.subsystemregistration
+  displayName: Subsystem Registration
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Provides internal registration mechanism for standalone subsystems. 
+    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.4
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    compatible:
+    - 1.1.1
+    - 1.1.2
+    verified: 1.1.2
+  dependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - subsystem
+  - registration
+  - internal
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637703478850000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
+    revision: 0aafce17de537879b970cedf309038c8d227ec05
+    path: 
+  unityLifecycle:
+    version: 1.1.1
+    nextVersion: 
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 0
@@ -3251,50 +3767,89 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.1.10
     nextVersion: 
-- packageId: com.unity.subsystemregistration@1.1.1
+- packageId: com.unity.inputsystem@1.4.4
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.4.4
   source: 1
-  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.subsystemregistration@1.1.1
-  assetPath: Packages/com.unity.subsystemregistration
-  name: com.unity.subsystemregistration
-  displayName: Subsystem Registration
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.inputsystem@1.4.4
+  assetPath: Packages/com.unity.inputsystem
+  name: com.unity.inputsystem
+  displayName: Input System
   author:
     name: 
     email: 
     url: 
   category: 
   type: asset
-  description: Provides internal registration mechanism for standalone subsystems. 
-    It allows a standalone subsystem to inform the Subsystem Manager of its existence.
+  description: A new input system which can be used as a more extensible and customizable
+    alternative to Unity's classic input system in UnityEngine.Input.
   status: 0
   errors: []
   versions:
     all:
+    - 0.1.2-preview
+    - 0.2.0-preview
+    - 0.2.1-preview
+    - 0.2.6-preview
+    - 0.2.8-preview
+    - 0.2.10-preview
+    - 0.9.0-preview
+    - 0.9.1-preview
+    - 0.9.2-preview
+    - 0.9.3-preview
+    - 0.9.4-preview
+    - 0.9.5-preview
+    - 0.9.6-preview
+    - 1.0.0-preview
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
     - 1.0.0-preview.4
-    - 1.0.4
-    - 1.0.5
-    - 1.0.6
-    - 1.1.0
+    - 1.0.0-preview.5
+    - 1.0.0-preview.6
+    - 1.0.0-preview.7
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.1.0-pre.5
+    - 1.1.0-pre.6
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
     - 1.1.1
-    - 1.1.2
+    - 1.2.0
+    - 1.3.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
     compatible:
-    - 1.1.1
-    - 1.1.2
-    verified: 1.1.2
+    - 1.4.4
+    verified: 1.4.4
   dependencies:
-  - name: com.unity.modules.subsystems
+  - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
-  - name: com.unity.modules.subsystems
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
   keywords:
-  - subsystem
-  - registration
-  - internal
+  - input
+  - events
+  - keyboard
+  - mouse
+  - gamepad
+  - touch
+  - vr
+  - xr
   registry:
     id: main
     name: 
@@ -3305,16 +3860,103 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637703478850000000
+  datePublishedTicks: 638030660210000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.subsystemregistration.git
-    revision: 0aafce17de537879b970cedf309038c8d227ec05
+    url: https://github.com/Unity-Technologies/InputSystem.git
+    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.4.4
+    nextVersion: 
+- packageId: com.unity.xr.core-utils@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.core-utils@2.0.0
+  assetPath: Packages/com.unity.xr.core-utils
+  name: com.unity.xr.core-utils
+  displayName: XR Core Utilities
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "Common utility classes for XR projects\nRefer to API documentation
+    for details. Some particularly useful utilities include:\n\u25AA Geometry Utilities\n 
+    \u25AA Point of closest approach\n  \u25AA Closest edge of a polygon\n  \u25AA
+    Check if point inside of polygon\n  \u25AA Compute 2D convex hull\n\u25AA Collection
+    pool\n\u25AA Math Utilities\n  \u25AA Bounds extensions\n  \u25AA Quaternion
+    extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
+    Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
+    XR Origin Implementation"
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 2.0.0-pre.3
+    - 2.0.0-pre.5
+    - 2.0.0-pre.6
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    compatible:
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0-pre.1
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0-pre.1
+    - 2.2.0-pre.2
+    verified: 2.0.1
+  dependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - xr
+  - ar
+  - augmented
+  - reality
+  - utility
+  - utilities
+  - core
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 637810557940000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.core-utils.git
+    revision: 64e94d2afd538c154dd9f9fad875ef0afdc2ecd1
+    path: 
+  unityLifecycle:
+    version: 2.0.0
     nextVersion: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
@@ -3587,7 +4229,7 @@ m_ResolvedPackages:
     version: 4.2.0
   resolvedDependencies:
   - name: com.unity.xr.management
-    version: 4.2.0
+    version: 4.2.1
   - name: com.unity.modules.subsystems
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -3630,116 +4272,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 3.2.1
-    nextVersion: 
-- packageId: com.unity.xr.openxr@1.4.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.4.2
-  source: 1
-  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.xr.openxr@1.4.2
-  assetPath: Packages/com.unity.xr.openxr
-  name: com.unity.xr.openxr
-  displayName: OpenXR Plugin
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: OpenXR is an open, royalty-free standard developed by Khronos that
-    aims to simplify AR/VR development by allowing developers to target a wide range
-    of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.1-preview.1
-    - 0.1.2-preview.2
-    - 1.0.0-pre.1
-    - 1.0.2
-    - 1.0.3
-    - 1.1.1
-    - 1.2.0
-    - 1.2.2
-    - 1.2.3
-    - 1.2.8
-    - 1.3.0
-    - 1.3.1
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.5.0-exp.1
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.6.0
-    compatible:
-    - 1.4.2
-    - 1.5.0-exp.1
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.6.0
-    verified: 1.4.2
-  dependencies:
-  - name: com.unity.xr.management
-    version: 4.0.1
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.2
-  - name: com.unity.inputsystem
-    version: 1.3.0
-  resolvedDependencies:
-  - name: com.unity.xr.management
-    version: 4.2.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  - name: com.unity.subsystemregistration
-    version: 1.1.1
-  - name: com.unity.inputsystem
-    version: 1.4.4
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  keywords:
-  - openxr
-  - xr
-  - reality
-  - xreditorsubsystem
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 637884092510000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/xr.sdk.openxr.git
-    revision: 9f7014aa33bf536ec867484ee501dec6c2a4bc16
-    path: 
-  unityLifecycle:
-    version: 1.4.2
     nextVersion: 
 - packageId: com.unity.performance.profile-analyzer@1.1.1
   testable: 0
@@ -3992,110 +4524,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.6.0
-    nextVersion: 
-- packageId: com.unity.inputsystem@1.4.4
-  testable: 0
-  isDirectDependency: 0
-  version: 1.4.4
-  source: 1
-  resolvedPath: E:\Unity projects\Uni\VIR2-Game-for-the-blind\Game for the blind\Library\PackageCache\com.unity.inputsystem@1.4.4
-  assetPath: Packages/com.unity.inputsystem
-  name: com.unity.inputsystem
-  displayName: Input System
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A new input system which can be used as a more extensible and customizable
-    alternative to Unity's classic input system in UnityEngine.Input.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.2-preview
-    - 0.2.0-preview
-    - 0.2.1-preview
-    - 0.2.6-preview
-    - 0.2.8-preview
-    - 0.2.10-preview
-    - 0.9.0-preview
-    - 0.9.1-preview
-    - 0.9.2-preview
-    - 0.9.3-preview
-    - 0.9.4-preview
-    - 0.9.5-preview
-    - 0.9.6-preview
-    - 1.0.0-preview
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.0-preview.5
-    - 1.0.0-preview.6
-    - 1.0.0-preview.7
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.1.0-pre.5
-    - 1.1.0-pre.6
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.1.0-preview.3
-    - 1.1.1
-    - 1.2.0
-    - 1.3.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.4.4
-    compatible:
-    - 1.4.4
-    verified: 1.4.4
-  dependencies:
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  keywords:
-  - input
-  - events
-  - keyboard
-  - mouse
-  - gamepad
-  - touch
-  - vr
-  - xr
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638030660210000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/InputSystem.git
-    revision: 59db7b7bcc31bad254947e3189e6ec125f67e3e7
-    path: 
-  unityLifecycle:
-    version: 1.4.4
     nextVersion: 
 - packageId: com.unity.nuget.newtonsoft-json@3.0.2
   testable: 0
