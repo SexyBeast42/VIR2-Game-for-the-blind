@@ -401,6 +401,7 @@
 "Assets/Scripts/Gun Scripts/Magazine.cs"
 "Assets/Scripts/Gun Scripts/XROffsetGrabInteractable.cs"
 "Assets/Scripts/Gun Scripts/XRSocketInteractorTag.cs"
+"Assets/Scripts/OnTargetReach.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 

@@ -321,6 +321,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.CoreUtils.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Interaction.Toolkit.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Management.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.MockHMD.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.Oculus.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.OpenXR.Features.ConformanceAutomation.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.XR.OpenXR.Features.OculusQuestSupport.ref.dll"
@@ -330,6 +331,12 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Nokobot/Modern Guns - Handgun/_Demo Assets/SimpleShoot.cs"
+"Assets/Scripts/Enemy Scripts/EnemyAI.cs"
+"Assets/Scripts/Enemy Scripts/EnemySpawner.cs"
+"Assets/Scripts/Gun Scripts/Magazine.cs"
+"Assets/Scripts/Gun Scripts/XROffsetGrabInteractable.cs"
+"Assets/Scripts/Gun Scripts/XRSocketInteractorTag.cs"
+"Assets/Scripts/OnTargetReach.cs"
 "Assets/XRPlatformControllerSetup.cs"
 -langversion:9.0
 

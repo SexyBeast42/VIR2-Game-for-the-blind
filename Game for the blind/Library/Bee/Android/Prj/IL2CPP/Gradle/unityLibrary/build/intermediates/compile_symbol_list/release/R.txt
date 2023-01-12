@@ -809,6 +809,11 @@ int layout select_dialog_item_material 0x0
 int layout select_dialog_multichoice_material 0x0
 int layout select_dialog_singlechoice_material 0x0
 int layout support_simple_spinner_dropdown_item 0x0
+int string FreeformWindowOrientation_landscape 0x0
+int string FreeformWindowOrientation_portrait 0x0
+int string FreeformWindowSize_maximize 0x0
+int string FreeformWindowSize_phone 0x0
+int string FreeformWindowSize_tablet 0x0
 int string abc_action_bar_home_description 0x0
 int string abc_action_bar_up_description 0x0
 int string abc_action_menu_overflow_description 0x0

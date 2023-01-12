@@ -29,21 +29,27 @@ public class SimpleShoot : MonoBehaviour
     
     public Magazine magazine;
     public XRBaseInteractor socketInteractor;
+    private bool hasSlide = true;
 
     public void AddMagazine(XRBaseInteractable interactable)
     {
+        Debug.Log("added mag");
         magazine = interactable.GetComponent<Magazine>();
         source.PlayOneShot(reload);
+        hasSlide = false;
     }
 
     public void RemoveMagazine(XRBaseInteractable interactable)
     {
+        Debug.Log("removed mag");
         magazine = null;
     }
 
     public void Slide()
     {
-        
+        Debug.Log("slided");
+        hasSlide = true;
+        source.PlayOneShot(reload);
     }
     
     
@@ -56,12 +62,12 @@ public class SimpleShoot : MonoBehaviour
             gunAnimator = GetComponentInChildren<Animator>();
         
         socketInteractor.onSelectEntered.AddListener(AddMagazine);
-        socketInteractor.onSelectEntered.AddListener(RemoveMagazine);
+        socketInteractor.onSelectExited.AddListener(RemoveMagazine);
     }
 
     public void PullTheTrigger()
     {
-        if (magazine && magazine.numberOfBullets > 0)
+        if (magazine && magazine.numberOfBullets > 0 && hasSlide)
         {
             gunAnimator.SetTrigger("Fire");
         }

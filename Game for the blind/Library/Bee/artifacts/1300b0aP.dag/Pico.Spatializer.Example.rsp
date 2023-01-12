@@ -305,7 +305,7 @@
 -r:"E:/Unity projects/Uni/VIR2-Game-for-the-blind/Game for the blind/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"E:/Unity projects/Uni/VIR2-Game-for-the-blind/Game for the blind/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
-"E:/Unity projects/Uni/VIR2-Game-for-the-blind/PICO Unity Integration SDK v212/SpatialAuido/Samples/scripts/plastic_fps_controller.cs"
+"E:/Unity projects/Uni/VIR2-Game-for-the-blind/PICO Things/PICO Unity Integration SDK v212/SpatialAuido/Samples/scripts/plastic_fps_controller.cs"
 -langversion:9.0
 
 /deterministic

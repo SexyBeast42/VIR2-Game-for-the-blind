@@ -80,6 +80,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : Unity.Profiling.LowLevel.Unsafe.ProfilerUnsafeUtility
 
+	//Start Registrations for type : UnityEngine.AI.NavMeshAgent
+
+		//System.Boolean UnityEngine.AI.NavMeshAgent::SetDestination_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_AI_NavMeshAgent_SetDestination_Injected();
+		Register_UnityEngine_AI_NavMeshAgent_SetDestination_Injected();
+
+	//End Registrations for type : UnityEngine.AI.NavMeshAgent
+
 	//Start Registrations for type : UnityEngine.Analytics.Analytics
 
 		//System.Boolean UnityEngine.Analytics.Analytics::IsInitialized()
@@ -1718,6 +1726,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_Find();
 		Register_UnityEngine_GameObject_Find();
 
+		//UnityEngine.GameObject UnityEngine.GameObject::FindGameObjectWithTag(System.String)
+		void Register_UnityEngine_GameObject_FindGameObjectWithTag();
+		Register_UnityEngine_GameObject_FindGameObjectWithTag();
+
 		//UnityEngine.GameObject[] UnityEngine.GameObject::FindGameObjectsWithTag(System.String)
 		void Register_UnityEngine_GameObject_FindGameObjectsWithTag();
 		Register_UnityEngine_GameObject_FindGameObjectsWithTag();
@@ -1737,6 +1749,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Gizmos::DrawSphere_Injected(UnityEngine.Vector3&,System.Single)
 		void Register_UnityEngine_Gizmos_DrawSphere_Injected();
 		Register_UnityEngine_Gizmos_DrawSphere_Injected();
+
+		//System.Void UnityEngine.Gizmos::DrawWireSphere_Injected(UnityEngine.Vector3&,System.Single)
+		void Register_UnityEngine_Gizmos_DrawWireSphere_Injected();
+		Register_UnityEngine_Gizmos_DrawWireSphere_Injected();
 
 		//System.Void UnityEngine.Gizmos::set_color_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_Gizmos_set_color_Injected();
@@ -2740,6 +2756,30 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ObjectGUIState
 
+	//Start Registrations for type : UnityEngine.ParticleSystem
+
+		//System.Void UnityEngine.ParticleSystem::EmitOld_Internal(UnityEngine.ParticleSystem/Particle&)
+		void Register_UnityEngine_ParticleSystem_EmitOld_Internal();
+		Register_UnityEngine_ParticleSystem_EmitOld_Internal();
+
+		//System.Void UnityEngine.ParticleSystem::Emit_Injected(UnityEngine.ParticleSystem/EmitParams&,System.Int32)
+		void Register_UnityEngine_ParticleSystem_Emit_Injected();
+		Register_UnityEngine_ParticleSystem_Emit_Injected();
+
+		//System.Void UnityEngine.ParticleSystem::Emit_Internal(System.Int32)
+		void Register_UnityEngine_ParticleSystem_Emit_Internal();
+		Register_UnityEngine_ParticleSystem_Emit_Internal();
+
+	//End Registrations for type : UnityEngine.ParticleSystem
+
+	//Start Registrations for type : UnityEngine.ParticleSystemRenderer
+
+		//System.Int32 UnityEngine.ParticleSystemRenderer::GetMeshes(UnityEngine.Mesh[])
+		void Register_UnityEngine_ParticleSystemRenderer_GetMeshes();
+		Register_UnityEngine_ParticleSystemRenderer_GetMeshes();
+
+	//End Registrations for type : UnityEngine.ParticleSystemRenderer
+
 	//Start Registrations for type : UnityEngine.Physics
 
 		//System.Void UnityEngine.Physics::get_defaultPhysicsScene_Injected(UnityEngine.PhysicsScene&)
@@ -2946,9 +2986,17 @@ void RegisterAllStrippedInternalCalls()
 
 	//Start Registrations for type : UnityEngine.Random
 
+		//System.Int32 UnityEngine.Random::RandomRangeInt(System.Int32,System.Int32)
+		void Register_UnityEngine_Random_RandomRangeInt();
+		Register_UnityEngine_Random_RandomRangeInt();
+
 		//System.Single UnityEngine.Random::Range(System.Single,System.Single)
 		void Register_UnityEngine_Random_Range();
 		Register_UnityEngine_Random_Range();
+
+		//System.Void UnityEngine.Random::get_onUnitSphere_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Random_get_onUnitSphere_Injected();
+		Register_UnityEngine_Random_get_onUnitSphere_Injected();
 
 	//End Registrations for type : UnityEngine.Random
 

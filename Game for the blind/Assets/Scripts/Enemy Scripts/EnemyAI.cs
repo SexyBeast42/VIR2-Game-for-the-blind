@@ -18,7 +18,7 @@ public class EnemyAI : MonoBehaviour
     public List<AudioClip> sounds; //need moving/spawning sounds, dying sounds
 
     //Enemy variables
-    public Transform player;
+    public GameObject player;
     public float attackRange, health;
     private bool canPlayNoise;
 
@@ -29,12 +29,14 @@ public class EnemyAI : MonoBehaviour
         source = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
 
+        player = GameObject.FindGameObjectWithTag("Player");
+
         //Set bool for noise to true
         canPlayNoise = true;
 
         //Play a sound when they spawn
-        int randomNumber = Random.Range(0, 3);
-        source.PlayOneShot(sounds[randomNumber]);
+        // int randomNumber = Random.Range(0, 3);
+        source.PlayOneShot(sounds[0]);
     }
 
     // Update is called once per frame
@@ -43,7 +45,7 @@ public class EnemyAI : MonoBehaviour
         AttackPlayer();
         
         //Moves the zombie towards the player
-        agent.SetDestination(player.position);
+        agent.SetDestination(player.transform.position);
         
         //Check if they should make a noise when they move towards the player
         if (canPlayNoise)
@@ -79,13 +81,13 @@ public class EnemyAI : MonoBehaviour
     private void AttackPlayer()
     {
         //check if they are within attack distance
-        float distance = Vector3.Distance(transform.position, player.position);
+        float distance = Vector3.Distance(transform.position, player.transform.position);
 
         if (distance <= attackRange)
         {
             //Play attack sound
-            int randomTrack = Random.Range(4, 6);
-            source.PlayOneShot(sounds[randomTrack]);
+            // int randomTrack = Random.Range(4, 6);
+            // source.PlayOneShot(sounds[randomTrack]);
             
             //Trigger attack animation
             //animator.Play("AnimationName");
@@ -95,7 +97,7 @@ public class EnemyAI : MonoBehaviour
     IEnumerator PlayNoise()
     {
         canPlayNoise = false;
-        int randomTime = Random.Range(5, 11);
+        int randomTime = Random.Range(5, 16);
         
         //Play moving sound
         int randomTrack = Random.Range(0, 3);
